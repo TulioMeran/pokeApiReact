@@ -1,0 +1,30 @@
+.itemContainer {
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.itemContainer:hover {
+    cursor: pointer;
+    background-color: rgb(182, 182, 182);
+}
+
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokeball,
+.itemBox img {
+    width: 200px;
+    height: auto;
+}
+
+.itemBox label {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
