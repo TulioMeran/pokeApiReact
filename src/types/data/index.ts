@@ -1,10 +1,9 @@
-import { IDetail, IPokemon } from "../pokemon";
+import { IPokemon } from "../pokemon";
 
 export interface data {
     pokemons: IPokemon[]
-    currentPokemon: IDetail
-    callSpecifyPokemon: (url: string) => void
-    setOffset: React.Dispatch<React.SetStateAction<number>>
-    offtset: number
-
+    countNextFetch: number
+    setCountNextFetch: React.Dispatch<React.SetStateAction<number>>
+    isSearching: boolean
+    setIsSearching: React.Dispatch<React.SetStateAction<boolean>>
 }

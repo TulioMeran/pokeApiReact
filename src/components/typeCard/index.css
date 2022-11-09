@@ -1,0 +1,105 @@
+.type {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 500;
+    min-width: 90px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid grey;
+
+}
+
+.grass {
+    background-color: greenyellow;
+    color: black;
+
+}
+
+.poison {
+    background-color: blueviolet;
+    color: white;
+}
+
+.fire {
+    background-color: chocolate;
+    color: white;
+}
+
+.flying {
+    background-color: slategrey;
+    color: white;
+}
+
+.water {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.bug {
+    background-color: forestgreen;
+    color: white;
+}
+
+.normal {
+    background-color: aliceblue;
+    color: black;
+}
+
+.ground {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+
+.psychic {
+    background-color: deeppink;
+    color: white;
+}
+
+.rock {
+    background-color: darkkhaki;
+    color: white;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fairy {
+    background-color:  hotpink;
+    color: white;
+}
+
+.ice {
+    background-color:  aqua;
+    color: black;
+}
+
+.ghost {
+    background-color:  blueviolet;
+    color: white;
+}
+
+.dark {
+    background-color:  black;
+    color: white;
+}
+
+.steel {
+    background-color:  cadetblue;
+    color: white;
+}
+
+.dragon {
+    background-color:  cornflowerblue;
+    color: white;
+}
+

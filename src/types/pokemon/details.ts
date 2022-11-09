@@ -59,6 +59,7 @@
 export interface IDetail {
     abilities: IAbilities[]
     height: number
+    weight: number
     name: string
     order: number
     types: ITypes[]
