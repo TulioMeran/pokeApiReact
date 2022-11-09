@@ -166,6 +166,21 @@
     height: auto;
 }
 
+.modal-close {
+    position: absolute;
+    top: 5%;
+}
+
+.modal-close h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: gray;
+}
+
+.modal-close h1:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 750px) {
     .main-content {
         display: flex;

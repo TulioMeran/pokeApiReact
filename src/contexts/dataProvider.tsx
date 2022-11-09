@@ -14,8 +14,6 @@ const DataProvider: FC<{children: any}> = ({children}) => {
     const [isSearching,setIsSearching] = useState<boolean>(false)
 
     useEffect(() => {
-        setPokemons(prevState => prevState = [])
-        setNextFetch("")
         fetch(`${BASE_URL}?offset=0&limit=20`)
         .then(response => response.json())
         .then(data => {

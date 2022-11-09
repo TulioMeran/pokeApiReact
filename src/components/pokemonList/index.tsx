@@ -24,7 +24,6 @@ const PokemonList: FC<{currentPokemons: IPokemon[], setCurrentPokemons: React.Di
     },[countNextFetch])
 
     useEffect(() => {
-        setCurrentPokemons(prevState => prevState = [])
         setTimeout(() => {
             setCurrentPokemons(pokemons)
         },2000)

@@ -17,6 +17,9 @@ const Modal: FC<{open: boolean, handlerCloseModal: () => void, pokemon: IDetail}
             }}>
             {pokemon.name && <div className='modal-content'>
              <div className='main-content'>
+                <div className='modal-close' >
+                   <h1 onClick={handlerCloseModal} >x</h1> 
+                </div>
                 <div className='side-left' >
                   <div className='height-weight-content' >
                     <div className='h-w-main' >
