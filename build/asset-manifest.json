@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pokeApiReact/static/css/main.e54f2d73.css",
+    "main.css": "/pokeApiReact/static/css/main.c2d87e07.css",
     "main.js": "/pokeApiReact/static/js/main.637a3d1f.js",
     "static/css/591.990f1225.chunk.css": "/pokeApiReact/static/css/591.990f1225.chunk.css",
     "static/js/591.84a78ed7.chunk.js": "/pokeApiReact/static/js/591.84a78ed7.chunk.js",
@@ -9,7 +9,7 @@
     "static/js/8.c9705439.chunk.js": "/pokeApiReact/static/js/8.c9705439.chunk.js",
     "static/media/pokeball.png": "/pokeApiReact/static/media/pokeball.7a1e4947e65f02d3d0da.png",
     "index.html": "/pokeApiReact/index.html",
-    "main.e54f2d73.css.map": "/pokeApiReact/static/css/main.e54f2d73.css.map",
+    "main.c2d87e07.css.map": "/pokeApiReact/static/css/main.c2d87e07.css.map",
     "main.637a3d1f.js.map": "/pokeApiReact/static/js/main.637a3d1f.js.map",
     "591.990f1225.chunk.css.map": "/pokeApiReact/static/css/591.990f1225.chunk.css.map",
     "591.84a78ed7.chunk.js.map": "/pokeApiReact/static/js/591.84a78ed7.chunk.js.map",
@@ -18,7 +18,7 @@
     "8.c9705439.chunk.js.map": "/pokeApiReact/static/js/8.c9705439.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e54f2d73.css",
+    "static/css/main.c2d87e07.css",
     "static/js/main.637a3d1f.js"
   ]
 }
