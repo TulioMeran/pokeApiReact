@@ -1,40 +1,35 @@
-import { Component } from "react";
+import { Component } from 'react';
 
 interface IProps {
-    children: any
+  children: any;
 }
 
 interface IState {
-    hasError: boolean
+  hasError: boolean;
 }
 
-class ErrorBoundary extends Component<IProps,IState> {
+class ErrorBoundary extends Component<IProps, IState> {
+  constructor(props: IProps) {
+    super(props);
+    this.state = { hasError: false };
+  }
 
-    constructor(props: IProps){
-        super(props)
-        this.state = {hasError: false};
+  //DETECTA EL ERROR PARA ACTUAR EL STATE
+  static getDerivedStateFromError(error: any) {
+    return { hasError: true };
+  }
+
+  componentDidCatch(error: any, errorInfo: any) {
+    console.log(`error: ${error} , errorInfo: ${JSON.stringify(errorInfo)} `);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <h1>Something went wrong</h1>;
     }
 
-    //DETECTA EL ERROR PARA ACTUAR EL STATE
-    static getDerivedStateFromError(error: any){
-        return { hasError: true};
-    }
-
-    componentDidCatch(error: any, errorInfo: any){
-        console.log("ERROR:")
-        console.log(error)
-        console.log("error Info:")
-        console.log(errorInfo)
-    }
-
-    render() {
-
-        if(this.state.hasError){
-            return <h1>Something went wrong</h1>
-        }
-
-        return this.props.children
-    }
+    return this.props.children;
+  }
 }
 
-export default ErrorBoundary
+export default ErrorBoundary;
