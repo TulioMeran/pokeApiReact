@@ -26,12 +26,6 @@ const HomePage = () => {
         handlerCloseModal={handlerCloseModal}
         pokemon={currentPokemon}
       />
-      <button
-        onClick={() => {
-          throw new Error('ESTOS ES UN ERROR');
-        }}>
-        CLICK ME NOW BITCH
-      </button>
       <Search
         currentPokemons={currentPokemons}
         setCurrentPokemons={setCurrentPokemons}

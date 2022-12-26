@@ -8,9 +8,9 @@ import ErrorBoundary from './components/errorBoundary';
 function App() {
   return (
     <ErrorBoundary>
-    <DataProvider>
-      <HomePage />
-    </DataProvider>
+      <DataProvider>
+        <HomePage />
+      </DataProvider>
     </ErrorBoundary>
   );
 }
