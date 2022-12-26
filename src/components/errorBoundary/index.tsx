@@ -20,6 +20,7 @@ class ErrorBoundary extends Component<IProps, IState> {
   }
 
   componentDidCatch(error: any, errorInfo: any) {
+    console.log('ALOHA');
     console.log(`error: ${error} , errorInfo: ${JSON.stringify(errorInfo)} `);
   }
 
